@@ -77,6 +77,7 @@
 
 .start-btn:disabled {
   background: #cfcfcf;
+  cursor: not-allowed;
 }
 
 #datetime-picker {
@@ -91,4 +92,9 @@
   color: #2e2f42;
   padding-left: 16px;
   border: 1px solid #808080;
+}
+
+#datetime-picker:disabled {
+  color: #808080;
+  cursor: not-allowed;
 }
